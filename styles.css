@@ -513,7 +513,7 @@ width: 335px;
   width:1440px;
 }
 .main-article__header-text__wrapper-div{
-  gap: 881.24px;
+  gap: space-between;
   padding: 3.5rem 9.75rem 0rem 10rem;  
 }
 .main-article__header-msg__wrapper{ 
