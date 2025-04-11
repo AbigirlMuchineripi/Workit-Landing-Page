@@ -88,14 +88,14 @@ h3 {
 }
 .main-article{
   height: 2453.61px;
-   width: 375px;
-   max-width: 100%;
+  width: 375px;
+  
   margin: 0;
   padding: 0;
 
 }
 .main-article__header{
- min-height  : 481px;
+ height  : 481px;
  width:375px;
   background-color: var(--purple-900);
   margin-bottom:5.5625rem;
@@ -325,7 +325,7 @@ width: 335px;
   gap: 28px;
 }
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width:1024px) {
+@media screen and (min-width: 768px) {
   .main-article{  
     height: 2202.61px;
    width: 768px;   
@@ -469,15 +469,15 @@ width: 335px;
 }  
 }
 /*DESKTOP*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 992px) {
   
 .main-article{
   height: 2557.61px;
-  width: 2119px;
-  margin: 0;
-  padding: 0;
-  flex-flow: column;
-  align-items: center;
+  width: 100%;
+  max-width: 2119px;
+  margin: 0 auto;
+ 
+ 
 }
 
 .main-article__header {
